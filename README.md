@@ -8,7 +8,7 @@ Found 2 8 pin ICs that look intriguing.  Removed the center one hoping that was 
 
 Second IC was removed, now its only lighting up the static elements. ![second_ic_removed](second_ic_removed.jpg)
 
-Pin 1 is 3.3v, Pin 5 is GND.  Pin 2, 3, 6, 7 all control the rest of the elements.  I just need to try to put an ESP in here to drive those. ![second_ic_removed](wires_added.jpg)
+Pin 1 is 3.3v, Pin 8 is GND.  Pin 2, 3, 6, 7 all control the rest of the elements.  I just need to try to put an ESP in here to drive those. ![second_ic_removed](wires_added.jpg)
 
 I got my ESP32 with WLED flashed wired in.  It is flakey, I suspect it doesn't have enough juice on the 3.3v line to run the esp.  I probably need to power it separately from the 22v line with another regulator?
 
