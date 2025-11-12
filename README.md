@@ -13,3 +13,5 @@ Pin 1 is 3.3v, Pin 8 is GND.  Pin 2, 3, 6, 7 all control the rest of the element
 I got my ESP32 with WLED flashed wired in.  It is flakey, I suspect it doesn't have enough juice on the 3.3v line to run the esp.  I probably need to power it separately from the 22v line with another regulator?
 
 And now I touched the 3.3v line to the wrong thing and BOOM.  It's fired.  What I think is the 3.3v regular is now not really doing anything.  I'm going to replace that & see what happens.
+
+TODO: Verify the input voltage to what I suspect is the 3.3v regulator is the 22v coming from the supply.  If not, find out where the 22v is going.  Heck maybe we fried the 22v supply and thats no longer 22vs?
