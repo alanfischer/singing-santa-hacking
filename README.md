@@ -14,4 +14,6 @@ I got my ESP32 with WLED flashed wired in.  It is flakey, I suspect it doesn't h
 
 And now I touched the 3.3v line to the wrong thing and BOOM.  It's fired.  What I think is the 3.3v regular is now not really doing anything.  I'm going to replace that & see what happens.
 
-TODO: Verify the input voltage to what I suspect is the 3.3v regulator is the 22v coming from the supply.  If not, find out where the 22v is going.  Heck maybe we fried the 22v supply and thats no longer 22vs?
+I did some poking around... Actually Gus was poking around with the ohm meter... And verified the pwr & gnd pins on the IC I'm trying to replace were shorted out.  I then tried to remove a cap near it, no change, then I removed a jumper near it and it worked! ![removed](removed.jpg)
+
+Looks like we're back on track! ![back_on_track](back_on_track.jpg)
