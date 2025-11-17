@@ -24,6 +24,6 @@ Now the ESP works, however we are missing one line of the santa mouth.  This is 
 
 I soldered to the GPIO 4, 5, 12, 14 pins.  Initially I went with GPIO 1, but that was... problematic for some reason.  I suspect some power on conditions.
 
-Now its all great except we need a back.  I asked Ardan to model & print me a back! ![case](case.jpg)
+Now its all great except we need a back.  I asked Ardan to model & print me a back! ![cover](cover.jpg)
 
 Final thing I realized is WLED does *not* let me expose on/off gpio pins to xlights!  I instead installed espixelstick, and that lets me have relay outputs that are exposed to xlights.
